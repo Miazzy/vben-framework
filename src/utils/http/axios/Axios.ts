@@ -209,9 +209,17 @@ export class VAxios {
 
     const opt: RequestOptions = Object.assign({}, requestOptions, options);
 
-    // proxy setting
+    // TODO 代理设置 /scomms-po /jw 等请求路径跳转对应代理路径 proxy setting
     if (conf.url?.startsWith('/scomms-po') || conf.url?.startsWith('/jw')) {
       opt.apiUrl = '';
+    }
+
+    // TODO getUserInfo接口 现在返回示例数据，在接通后端接口后需注释
+    if (conf.url === '/getUserInfo') {
+      return new Promise((resolve) => {
+        const result = `{"userId":"1","username":"vben","realName":"Vben Admin","avatar":"","desc":"manager","password":"123456","token":"fakeToken1","homePath":"/dashboard/analysis","roles":[{"roleName":"Super Admin","value":"super"}]}`;
+        resolve(JSON.parse(result));
+      });
     }
 
     const { beforeRequestHook, requestCatchHook, transformResponseHook } = transform || {};
