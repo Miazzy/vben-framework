@@ -4,7 +4,7 @@
 
 ## 简介
 
-Jiwei-Admin 是一个免费开源的中后台管理系统。使用了最新的`vue3`,`vite4`,`TypeScript`等主流技术开发，开箱即用的中后台前端解决方案，也可用于学习参考。
+Jiwei-Admin 是渔光物联公司的中后台管理系统。使用了最新的`vue3`,`vite4`,`TypeScript`等主流技术开发，开箱即用的中后台前端解决方案。
 
 ## 特性
 
@@ -18,7 +18,7 @@ Jiwei-Admin 是一个免费开源的中后台管理系统。使用了最新的`v
 
 ## 预览
 
-- [Jiwei Vben Admin](https://uat.ygwl.net/) - 完整版中文站点
+- [Jiwei Admin](https://uat.ygwl.net/) - 完整版中文站点
 
 #### 白色主题
 ![白色主题](document/images/theme.white.png)
