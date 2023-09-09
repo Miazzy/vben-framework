@@ -222,6 +222,14 @@ export class VAxios {
       });
     }
 
+    // TODO logout接口
+    if (conf.url === '/logout') {
+      return new Promise((resolve) => {
+        const result = `{"userId":"","username":""}`;
+        resolve(JSON.parse(result));
+      });
+    }
+
     const { beforeRequestHook, requestCatchHook, transformResponseHook } = transform || {};
     if (beforeRequestHook && isFunction(beforeRequestHook)) {
       conf = beforeRequestHook(conf, opt);
