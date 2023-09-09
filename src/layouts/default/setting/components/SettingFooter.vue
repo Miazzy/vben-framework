@@ -1,6 +1,7 @@
 <template>
   <div :class="prefixCls">
-    <a-button type="primary" block @click="handleCopy">
+    <!-- 
+      <a-button type="primary" block @click="handleCopy">
       <CopyOutlined class="mr-2" />
       {{ t('layout.setting.copyBtn') }}
     </a-button>
@@ -14,6 +15,7 @@
       <RedoOutlined class="mr-2" />
       {{ t('layout.setting.clearBtn') }}
     </a-button>
+    -->
   </div>
 </template>
 <script lang="ts">

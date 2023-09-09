@@ -5,10 +5,10 @@ import { t } from '/@/hooks/web/useI18n';
 
 // 生产监视菜单配置位置
 const dashboard: AppRouteModule = {
-  path: '/dashboard',
-  name: 'Dashboard',
+  path: '/prodmonitoring',
+  name: 'prodmonitoring',
   component: LAYOUT,
-  redirect: '/dashboard/analysis',
+  redirect: '/prodmonitoring/analysis',
   meta: {
     orderNo: 0,
     icon: 'ion:grid-outline',

@@ -1,7 +1,7 @@
 export default {
   login: '登录',
   errorLogList: '错误日志列表',
-  base: '基础',
+  base: '系统设置',
 
   dashboard: '生产监视',
   workbench: '电站总览',
