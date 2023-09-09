@@ -69,11 +69,15 @@
     padding-bottom: 1px;
 
     &__overlay {
-      max-width: 360px;
+      max-width: 500px;
+
+      .ant-popover-content {
+        width: 500px !important;
+      }
     }
 
     .ant-tabs-content {
-      width: 300px;
+      width: 500px;
     }
 
     .ant-badge {

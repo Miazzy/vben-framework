@@ -168,11 +168,15 @@
     &-content {
       position: relative;
       flex-direction: column;
-      width: 632px;
+      width: 822px !important;
       margin: 0 auto auto;
-      border-radius: 16px;
+      border-radius: 4px;
       background-color: @component-background;
       box-shadow: 0 25px 50px -12px rgb(0 0 0 / 25%);
+
+      .vben-app-search-footer {
+        height: 60px !important;
+      }
     }
 
     &-input__wrapper {
@@ -205,7 +209,7 @@
       align-items: center;
       justify-content: center;
       width: 100%;
-      height: 100px;
+      height: 280px;
       color: rgb(150 159 175);
       font-size: 0.9;
     }
