@@ -4,7 +4,7 @@ import { LAYOUT } from '/@/router/constant';
 import { t } from '/@/hooks/web/useI18n';
 
 // 生产监视菜单配置位置
-const dashboard: AppRouteModule = {
+const system: AppRouteModule = {
   path: '/system',
   name: 'system',
   component: LAYOUT,
@@ -26,4 +26,4 @@ const dashboard: AppRouteModule = {
   ],
 };
 
-export default dashboard;
+export default system;
